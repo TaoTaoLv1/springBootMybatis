@@ -2,7 +2,7 @@ spring:
   profiles:
     active: pro
   datasource:
-    url: jdbc:mysql://localhost/girl?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/girl?characterEncoding=utf8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: admin
